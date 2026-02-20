@@ -18,9 +18,7 @@ import bubbleshooter from './assets/bubbleshooter.png';
 import blockparty from './assets/BlockParty.png';
 import pressured from './assets/Pressured.png';
 
-
 function App() {
-
 
   const cards = [{
     id: 1,
@@ -144,12 +142,12 @@ function App() {
   ];
 
   const summary = `Third - year Computer Science student with strong foundations in Data Structures, Algorithms,
-    and Object - Oriented Programming.Experienced in building responsive and user - focused web applications
-  using React, JavaScript, HTML, and CSS, with hands - on project development including interactive tools 
-                     and browser - based games.Passionate about crafting clean, intuitive UI while writing efficient, scalable code. 
-                     Currently expanding expertise in full - stack development and exploring agentic AI systems.Actively seeking frontend,
-    full stack, or software engineering internships where I can contribute to high - quality product development 
-                     and grow within a collaborative engineering team.`;
+                    and Object - Oriented Programming.Experienced in building responsive and user - focused web applications
+                    using React, JavaScript, HTML, and CSS, with hands - on project development including interactive tools 
+                    and browser - based games.Passionate about crafting clean, intuitive UI while writing efficient, scalable code. 
+                    Currently expanding expertise in full - stack development and exploring machine learning. Actively seeking frontend,
+                    full stack, or software engineering internships where I can contribute to high - quality product development 
+                    and grow within a collaborative engineering team.`;
   return (
     <>
       <Summary
