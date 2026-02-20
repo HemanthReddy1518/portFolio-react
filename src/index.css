@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+     background-color: #E6EBE0;
+}
+h3{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 25px;
+}
+#header{
+    
+    padding:20px;
+    width: 100%;
+    background-color: #171D1C;
+    color: #EFE9F4;
+    display: flex;
+    margin-bottom: 10px;    
+    font-size: 22px;
+
+}
+
+.summary-container{
+    padding:20px;
+}
+
+
+.header-img{
+    width: 10%;
+    height: 95%;
+    display:flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.header-img img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin:10px;
+   
+}
+.cards{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.162);
+    background-color: #5FBFF9;
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.cards img{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.cards:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+a:link, a:visited, a:hover, a:active {
+    outline:none;
+    border:none;
+}
+
+.projects-container{
+   
+    margin:10px;
+    padding:20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#171D1C;
+   
+}
+
+
+.project{
+    background-color: #5CA4A9;
+    height:300px;
+    display:flex;
+    border-radius: 5px;
+    text-align: left;
+    margin: 20px;
+}
+
+.project-info{
+    width: 50%;
+    text-align: center; 
+    font-size: x-large;
+}
+.project-details{
+    text-align: left;
+}
+.project-tools{
+    font-size: medium;
+}
+
+.project-img{
+    width: 50%;
+    height: 100%; 
+}
+.project-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+
+}
+
+.tools-container{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.toolbox{
+    
+    display:flex;
+    
+    padding: 20px;
+    background-color: #F4F1BB;
+    
+    
+}
+.toolbox img {
+    width:100px;
+    height:100px; 
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.toolbox img:hover{
+   transform: translateY(-10px) scale(1.03);
+    
+}
+
+
+.webDev{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    
+}
+.webDev-imgContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lang{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    
+}
+.lang-imgContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.GameDev{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    
+}
+.game-imgContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.others{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    
+}
+.others-imgContainer{
+   
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
