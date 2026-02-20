@@ -12,7 +12,7 @@ import Project from './Project.jsx';
 import tictactoe from './assets/tic-tac-toe.png';
 import sokoban from './assets/sokoban.png';
 import currencyconverter from './assets/currencyconverter.png';
-import colorpicker from './assets/colorpicker.png';
+import colorpicker from './assets/colorPicker.png';
 import pinball from './assets/pinball.png';
 import bubbleshooter from './assets/bubbleshooter.png';
 import blockparty from './assets/BlockParty.png';
